@@ -14,8 +14,6 @@ namespace DelegatesNEvents
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Delegates And Events program!!\n");
-            operation obj = new operation(SingleCast.Addition); // : Single Delegate.
-            Console.WriteLine("Single Delegate!!...Addition is {0}\n", obj(55, 25));
             Console.WriteLine("MultiCast Delegates...\n");
             MulticastDeligate.ImplementDeligate();          // : MultiCast Delegate.
             Console.WriteLine("Events....{0}\n");
